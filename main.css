@@ -57,3 +57,46 @@ header{
     border-radius:  50%;
     background-color: silver;
 }
+
+main{
+    height: 80%;
+}
+
+.logo_container{
+    height: 30%;
+    position: relative;
+    justify-content: center;
+
+}
+
+.logo{
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+main form{
+    width:40%;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    display: flex;
+    border: 2px solid grey;
+    padding: 10px;
+    border-radius: 23px;
+}
+
+.submit{
+    border: none;
+    height: auto;
+}
+.search_bar{
+    border: none;
+    width: 95%;
+
+}
