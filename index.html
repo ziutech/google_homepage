@@ -7,7 +7,7 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
 </head>
-<body style="font-family: Arial, Helvetica, sans-serif; height: 960px;">
+<body>
     <header>
         <div class="top-icons ">
             <div class="nav-text ">
@@ -34,11 +34,34 @@
             <img class="logo" src="googlelogo.png">
         </div>
         <form>
-            <input class="submit" type="image" src="search_black_18dp.svg">
-            <input class="search_bar" type="text">
+            <div class="searchbar">
+                <input class="submit" type="image" src="search_black_18dp.svg">
+                <input class="search_form" type="text">
+            </div>
+            <div class="submit-container">
+                <input type="submit" class="submit-buttons" value="Google Search">
+                <input type="submit" class="submit-buttons" value="I'm Feeling Lucky">
+            </div>
         </form>
-        <div></div>
+        <div style="text-align: center; margin: 14px;">
+            Google offered in: english
+        </div>
     </main>
-    <footer></footer>
+    <footer>
+        <div>Language</div>
+        <div class="bottom-row">
+            <div class="content-container">
+                <div>About</div>
+                <div>Advertising</div>
+                <div>Business</div>
+                <div>How Search Works</div>
+            </div>
+            <div class="content-container">
+                <div>Privacy</div>
+                <div>Terms</div>
+                <div>Settings</div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
